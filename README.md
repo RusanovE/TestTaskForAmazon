@@ -16,7 +16,7 @@ This document provides information about the endpoints available in the Sales an
 ### 1. Get All Stats <a name="get-all-stats"></a>
 Endpoint: GET /api/stats/allDates
 
-Description: Retrieves all sales and traffic statistics.
+Description: Retrieves all sales and traffic statistics grouped by Date..
 
 Response:
 

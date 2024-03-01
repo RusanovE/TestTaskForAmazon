@@ -47,6 +47,7 @@ dates: Array of date strings representing the range.
 Response:
 
 200 OK: List of SalesAndTrafficByDataEntity.SalesAndTrafficByDate entities.
+204 No Content: If no data is available.
 
 ### 4. Get All Stats by ASIN <a name="get-all-stats-by-asin"></a>
 Endpoint: GET /api/stats/allAsin

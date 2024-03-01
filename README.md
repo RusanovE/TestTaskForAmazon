@@ -13,7 +13,7 @@ This document provides information about the endpoints available in the Sales an
 8) Create Authentication Token
 9) Create New User
 
-1. Get All Stats <a name="get-all-stats"></a>
+### 1. Get All Stats <a name="get-all-stats"></a>
 Endpoint: GET /api/stats/allDates
 
 Description: Retrieves all sales and traffic statistics.
@@ -23,7 +23,7 @@ Response:
 200 OK: List of SalesAndTrafficByDataEntity entities.
 204 No Content: If no data is available.
 
-2. Get Stats by Date <a name="get-stats-by-date"></a>
+### 2. Get Stats by Date <a name="get-stats-by-date"></a>
 Endpoint: GET /api/stats/{date}
 
 Description: Retrieves sales and traffic statistics for a specific date.
@@ -36,7 +36,7 @@ Response:
 200 OK: SalesAndTrafficByDataEntity.SalesAndTrafficByDate entity.
 404 Not Found: If no data is available for the given date.
 
-3. Get Stats Between Dates <a name="get-stats-between-dates"></a>
+### 3. Get Stats Between Dates <a name="get-stats-between-dates"></a>
 Endpoint: GET /api/stats/between-dates
 
 Description: Retrieves sales and traffic statistics for a range of dates.
@@ -48,7 +48,7 @@ Response:
 
 200 OK: List of SalesAndTrafficByDataEntity.SalesAndTrafficByDate entities.
 
-4. Get All Stats by ASIN <a name="get-all-stats-by-asin"></a>
+### 4. Get All Stats by ASIN <a name="get-all-stats-by-asin"></a>
 Endpoint: GET /api/stats/allAsin
 
 Description: Retrieves all sales and traffic statistics grouped by ASIN.
@@ -58,7 +58,7 @@ Response:
 200 OK: List of SalesAndTrafficByASINEntity entities.
 204 No Content: If no data is available.
 
-5. Get Stats by ASIN <a name="get-stats-by-asin"></a>
+### 5. Get Stats by ASIN <a name="get-stats-by-asin"></a>
 Endpoint: GET /api/stats/Asin/{asin}
 
 Description: Retrieves sales and traffic statistics for a specific ASIN.
@@ -71,7 +71,7 @@ Response:
 200 OK: SalesAndTrafficByASINEntity.SalesAndTrafficByAsin entity.
 404 Not Found: If no data is available for the given ASIN.
 
-6. Get Stats Between ASINs <a name="get-stats-between-asins"></a>
+### 6. Get Stats Between ASINs <a name="get-stats-between-asins"></a>
 Endpoint: GET /api/stats/Asin/between-asins
 
 Description: Retrieves sales and traffic statistics for a range of ASINs.
@@ -83,7 +83,7 @@ Response:
 
 200 OK: List of SalesAndTrafficByASINEntity.SalesAndTrafficByAsin entities.
 
-7. Create Authentication Token <a name="create-authentication-token"></a>
+### 7. Create Authentication Token <a name="create-authentication-token"></a>
 Endpoint: POST /api/stats/auth
 
 Description: Creates an authentication token for the user.
@@ -98,7 +98,8 @@ Response:
 
 200 OK: JWT authentication token.
 401 Unauthorized: If the provided credentials are invalid.
-8. Create New User <a name="create-new-user"></a>
+
+### 8. Create New User <a name="create-new-user"></a>
 Endpoint: POST /api/stats/regUser
 
 Description: Creates a new user.

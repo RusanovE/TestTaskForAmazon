@@ -3,15 +3,15 @@ Implementation of a test task from Amazon
 
 This document provides information about the endpoints available in the Sales and Traffic Report API.
 
-Table of Contents
-Get All Stats
-Get Stats by Date
-Get Stats Between Dates
-Get All Stats by ASIN
-Get Stats by ASIN
-Get Stats Between ASINs
-Create Authentication Token
-Create New User
+ # Table of Contents
+2) Get All Stats
+3) Get Stats by Date
+4) Get Stats Between Dates
+5) Get All Stats by ASIN
+6) Get Stats by ASIN
+7) Get Stats Between ASINs
+8) Create Authentication Token
+9) Create New User
 
 1. Get All Stats <a name="get-all-stats"></a>
 Endpoint: GET /api/stats/allDates

@@ -20,8 +20,8 @@ Description: Retrieves all sales and traffic statistics.
 
 Response:
 
-200 OK: List of SalesAndTrafficByDataEntity entities.
-204 No Content: If no data is available.
+- 200 OK: List of SalesAndTrafficByDataEntity entities.
+- 204 No Content: If no data is available.
 
 ### 2. Get Stats by Date <a name="get-stats-by-date"></a>
 Endpoint: GET /api/stats/{date}
